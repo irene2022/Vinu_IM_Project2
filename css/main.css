@@ -1,0 +1,196 @@
+@font-face
+{
+	font-family: 'rieslingregular';
+	src: url('../fonts/riesling-webfont.woff2') format('woff2'),
+	     url('../fonts/riesling-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'caviar_dreamsregular';
+    src: url('../fonts/caviardreams-webfont.woff2') format('woff2'),
+         url('../fontscaviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2
+{
+	font-family: 'rieslingregular', times, serif;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+p
+{
+	font-family: 'Lora', Ariel, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	word-spacing: 3px;
+}
+
+h3
+{
+	font-family: 'Lora', Ariel, sans-serif;
+	font-size: 25px;
+	padding: 10px;
+}
+
+img { padding: 10px; }
+
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	background: rgb(255,188,110);
+	background: linear-gradient(180deg, rgba(255,188,110,1) 0%, rgba(255,0,0,1) 80%);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#headerLabel
+{
+	padding: 10px;
+}
+
+#mainNav
+{
+	font-family: caviar_dreamsregular, Ariel, sans-serif;
+	font-weight: 700;
+	height: 60px;
+	margin-left: auto;
+	padding-right: 20px;
+}
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#mainNav ul li
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#mainNav ul li a
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .5s ease-in-out;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#mainNav ul li a:hover
+{
+	background-color: #feef01;
+	color: #333;
+}
+
+/* CONTENT */
+#intro
+{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+#intro p, h3
+{
+	text-align: center;
+}
+
+#harpoon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 20px;
+}
+
+#harpoon h3, p
+{
+	text-align: left;
+}
+
+#brewery
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 20px;
+}
+
+.br
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-top: 10px;
+}
+
+.br1 p
+{
+	text-align: right;
+}
+
+.br2
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#wolv
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+}
+
+.conclusion
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+}
+
+.conclusion h3
+{
+	text-align: right;
+}
+
+.conclusion p
+{ text-align: right; padding: 10px;}
+
+footer
+{
+	padding: 20px;
+	background: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#footerLabel p
+{
+	font-size: 12px;
+}
