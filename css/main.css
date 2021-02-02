@@ -19,13 +19,13 @@
 h2
 {
 	font-family: 'rieslingregular', times, serif;
-	font-size: 40px;
+	font-size: 60px;
 	font-weight: 500;
 }
 
 p
 {
-	font-family: 'Lora', Ariel, sans-serif;
+	font-family: 'Lora', Arial, sans-serif;
 	font-size: 16px;
 	padding: 10px;
 	word-spacing: 3px;
@@ -33,7 +33,8 @@ p
 
 h3
 {
-	font-family: 'Lora', Ariel, sans-serif;
+	font-family: 'Lora', Arial, sans-serif;
+	font-weight: bolder;
 	font-size: 25px;
 	padding: 10px;
 }
@@ -45,16 +46,23 @@ img { padding: 10px; }
 	display: none;
 }
 
+body
+{
+	background: brown;
+}
+
 #container
 {
 	width: 960px;
 	margin: 0 auto;
+	background: #fff;
 }
 
 #mainHeader
 {
-	background: rgb(255,188,110);
-	background: linear-gradient(180deg, rgba(255,188,110,1) 0%, rgba(255,0,0,1) 80%);
+	color: #0d1e32;
+	background: rgb(184,137,81);
+	background: linear-gradient(180deg, rgba(184,137,81,0.97) 0%, rgba(234,212,173,1) 70%);
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -62,16 +70,16 @@ img { padding: 10px; }
 
 #headerLabel
 {
-	padding: 10px;
+	padding: 20px;
 }
 
 #mainNav
 {
-	font-family: caviar_dreamsregular, Ariel, sans-serif;
+	font-family: 'caviar_dreamsregular', Arial, sans-serif;
 	font-weight: 700;
 	height: 60px;
 	margin-left: auto;
-	padding-right: 20px;
+	padding: 20px;
 }
 
 #mainNav ul
@@ -89,18 +97,19 @@ img { padding: 10px; }
 
 #mainNav ul li a
 {
-	color: #fff;
+	color: #0d1e32;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all .5s ease-in-out;
 	padding: 10px;
 	border-radius: 10px;
+	font-weight: 600;
 }
 
 #mainNav ul li a:hover
 {
-	background-color: #feef01;
-	color: #333;
+	background-color: #0d1e32;
+	color: #ead4ad;
 }
 
 /* CONTENT */
@@ -183,8 +192,9 @@ img { padding: 10px; }
 footer
 {
 	padding: 20px;
-	background: black;
-	color: white;
+	background: rgb(184,137,81);
+	background: linear-gradient(0deg, rgba(184,137,81,0.97) 0%, rgba(234,212,173,1) 70%);
+	color: #0d1e32;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
